@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zilol Shop | Home Page</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER START -->
+      <div class="header-top">
+        <div class="header-top-content">
+          <a class="header-top-content-text">Help</a>
+          <h1 class="header-top-content-arrow">|</h1>
+          <a class="header-top-content-text">Store</a>
+        </div>
+      </div>
+      <header class="header">
+        <div class="logo">
+          <a href="./index.html">
+            <h1 class="logo-text">Zilol Shop</h1>
+          </a>
+        </div>
+
+        <div class="menu">
+          <ul class="menu-ul">
+            <li class="menu-ul-list">
+              <a href="./index.html" class="menu-ul-list-a">Home</a>
+            </li>
+            <li class="menu-ul-list">
+              <a href="./pages/products.html" class="menu-ul-list-a">Popular</a>
+            </li>
+            <li class="menu-ul-list">
+              <a href="#" class="menu-ul-list-a">Groceries</a>
+            </li>
+            <li class="menu-ul-list">
+              <a href="#" class="menu-ul-list-a">Kitchen-accessories</a>
+            </li>
+            <li class="menu-ul-list">
+              <a href="#" class="menu-ul-list-a">Other</a>
+            </li>
+          </ul>
+          <div class="menu-img">
+            <a class="menu-img-a" href="">
+              <img class="menu-img-a-img" src="./images/message.svg" alt="" />
+            </a>
+            <a class="menu-img-a" href="">
+              <img class="menu-img-a-img" src="./images/like.svg" alt="" />
+            </a>
+            <a class="menu-img-a" href="">
+              <img class="menu-img-a-img" src="./images/store.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="menu-btn">
+            <button class="menu-btn-up">Sign Up</button>
+            <button class="menu-btn-in">Sign In</button>
+          </div>
+        </div>
+      </header>
+      <!-- HEADER END -->
+
+      <!-- MAIN START -->
+      <main class="main">
+        <div class="main-top">
+          <div class="main-top-content">
+            <h1 class="main-top-h1">Marketplace</h1>
+            <p class="main-top-text">
+              <span class="main-top-span">PUBLIC HIGH</span><br />
+              GUM NATURAL
+            </p>
+            <p class="main-top-text-p">
+              It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages, and more recently with
+              desktop publishing
+            </p>
+            <
+          </div>
+        </div>
+        <section class="main-middle">
+          <div class="popular">
+            <div class="popular-header">
+              <p class="popular-header-p">
+                <span class="popular-header-p-span">Most</span> popular products
+              </p>
+            </div>
+            <div class="popular-items">
+              <div id="popular-card" class="popular-card-frames">
+                <template id="temp-popular" class="temp-popular">
+                  <div class="card">
+                    <img class="card-img" src="./images/shoe-1.png" alt="" />
+                    <h1 class="card-title">
+                      Vantela Republic Low Black Natural
+                    </h1>
+                    <p class="price">Rp 159000</p>
+                    <div class="card-rating">
+                      <div class="card-rating-left">
+                        <img
+                          class="rating-img"
+                          src="./images/star.svg"
+                          alt=""
+                        />
+                        <div class="card-rating-numbers">
+                          <p class="rating r-text">4.5</p>
+                          <p class="rating-slash r-text">/</p>
+                          <p class="rating-max r-text">5</p>
+                        </div>
+                      </div>
+
+                      <button class="card-btn">Shop Now</button>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+
+          <div class="popular discount">
+            <div class="popular-header">
+              <p class="popular-header-p">
+                <span class="popular-header-p-span">On</span> sale
+              </p>
+              <div class="popular-content">
+                <a class="popular-content-a" href="#">
+                  <img src="./images/teenyicons_right-outline.png" alt="" />
+                </a>
+                <a class="popular-content-a" href="#">
+                  <img src="./images/teenyicons_left-outline.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="popular-items">
+              <div id="discount-card" class="popular-card-frames">
+                <template id="temp-discount" class="temp-discount">
+                  <div class="discount-card">
+                    <p class="discount-percent">Rp 415000</p>
+                    <img
+                      class="card-img"
+                      src="./images/shoe-discount-4.png"
+                      alt=""
+                    />
+
+                    <h1 class="card-title">
+                      Vantela Evil X Papa Gading Black Natural
+                    </h1>
+                    <p class="old-price">Rp 415000</p>
+                    <p class="new-price">Rp 415000</p>
+                    <div class="card-rating">
+                      <div class="card-rating-left">
+                        <img
+                          class="rating-img"
+                          src="./images/star.svg"
+                          alt=""
+                        />
+                        <div class="card-rating-numbers">
+                          <p class="rating r-text">4.5</p>
+                          <p class="rating-slash r-text">/</p>
+                          <p class="rating-max r-text">5</p>
+                        </div>
+                      </div>
+
+                      <button class="card-btn">Shop Now</button>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="main-bottom">
+          <img class="main-bottom-img" src="./images/Frame 180.png" alt="" />
+        </div>
+      </main>
+      <!-- MAIN END -->
+
+      <!-- FOOTER START -->
+      <footer class="footer">
+        <div class="footer-top">
+          <h1 class="footer-top-text">Zilol Shop</h1>
+          <div class="footer-top-input">
+            <input
+              class="footer-top-input-el"
+              type="text"
+              placeholder="Subscribe to our newsletter ..."
+            />
+            <a href="#" class="footer-top-input-a">
+              <img
+                class="footer-top-input-img"
+                src="./images/Vector.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer-middle">
+          <div class="footer-middle-items">
+            <div class="footer-middle-items-top">
+              <h1 class="footer-middle-items-top-text">Company</h1>
+            </div>
+            <div class="footer-middle-items-bottom">
+              <ul class="footer-ul">
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">About us</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">Our store</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">News</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-middle-items">
+            <div class="footer-middle-items-top">
+              <h1 class="footer-middle-items-top-text">Help</h1>
+            </div>
+            <div class="footer-middle-items-bottom">
+              <ul class="footer-ul">
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">FAQ</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">Help</a>
+                </li>
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a">Terms</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-middle-items">
+            <div class="footer-middle-items-top">
+              <h1 class="footer-middle-items-top-text">Social Media</h1>
+            </div>
+            <div class="footer-middle-items-bottom">
+              <ul class="footer-ul">
+                <li class="footer-list footer-li">
+                  <img class="footer-list-img" src="./images/fb.svg" alt="" />
+                  <a href="#" class="footer-list-a">Facebook</a>
+                </li>
+                <li class="footer-list footer-li">
+                  <img src="./images/tiktok.svg" alt="" />
+                  <a href="#" class="footer-list-a">Tik-Tok</a>
+                </li>
+                <li class="footer-list footer-li">
+                  <img src="./images/Instagram.svg" alt="" />
+                  <a href="#" class="footer-list-a">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-middle-items">
+            <div class="footer-middle-items-top">
+              <h1 class="footer-middle-items-top-text">Contact</h1>
+            </div>
+            <div class="footer-middle-items-bottom">
+              <ul class="footer-ul">
+                <li class="footer-list">
+                  <a href="#" class="footer-list-a underline"
+                    >Sukaasih, Kota Tangerang, Banten 15111</a
+                  >
+                </li>
+                <li class="footer-list footer-li underline">
+                  Phone :
+                  <a href="tel:+998508857788" class="footer-list-a underline"
+                    >+998508857788</a
+                  >
+                </li>
+                <li class="footer-list footer-li underline">
+                  Mail :
+                  <a
+                    href="mail:abdulvohidweb@gmail.com"
+                    class="footer-list-a underline"
+                    >abdulvohidweb@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <a href="https://github.com/abdulvokhidjon?tab=repositories">
+            <h2 class="footer-bottom-text">
+              Prepared by <span>Abdulvohid</span>
+            </h2></a
+          >
+        </div>
+      </footer>
+      <!-- FOOTER END -->
+    </div>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

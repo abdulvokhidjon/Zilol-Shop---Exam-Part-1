@@ -1,0 +1,138 @@
+.header-top {
+  position: relative;
+  width: 100%;
+  height: 56px;
+  background-color: transparent;
+}
+.header-top-content {
+  position: absolute;
+  top: 13px;
+  right: 163px;
+  display: flex;
+  gap: 6px;
+}
+
+.header-top-content-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #858585;
+  cursor: pointer;
+}
+
+.header-top-content-arrow {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: #858585;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  color: #1f3e97;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70.24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-right: 54px;
+}
+.menu-ul-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-ul-list-a {
+  text-decoration: none;
+  padding: 8px;
+  color: #858585;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.menu-ul-list-a:hover {
+  color: #1f3e97;
+  font-weight: 700;
+  padding: 6.5px;
+}
+.menu-ul-list-a:active {
+  color: #1f3e97;
+  font-weight: 700;
+}
+.menu-img {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 32px;
+}
+.menu-img-a {
+  padding: 2px;
+}
+.menu-img-a-img {
+}
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.menu-btn-up {
+  width: 78px;
+  height: 39px;
+  background-color: #1f3e97;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  transition: 0.2s;
+}
+
+.menu-btn-up:active {
+  width: 76px;
+  height: 37px;
+  font-size: 11px;
+}
+.menu-btn-in {
+  width: 78px;
+  height: 39px;
+  background-color: transparent;
+  border: 1px solid #1f3e97;
+  border-radius: 25px;
+  color: #1f3e97;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  transition: 0.2s;
+}
+
+.menu-btn-in:active {
+  width: 76px;
+  height: 37px;
+  font-size: 11px;
+}
